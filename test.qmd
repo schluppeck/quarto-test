@@ -1,0 +1,25 @@
+---
+title: "simple github demo"
+author: "Denis Schluppeck"
+date: "2022-12-28"
+format: 
+  html:
+    code-fold: true
+---
+
+## Checking out if github actions can help
+
+```[r]
+library(ggplot)
+
+mtcars %>%
+    ggplot(aes(x = hp, y = wt, colour=cyl)) +
+    geom_point()
+
+```
+
+## and some maths
+
+$$
+\sum_i (x_i - \bar{x})^2
+$$
